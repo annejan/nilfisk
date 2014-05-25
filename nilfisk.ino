@@ -65,7 +65,7 @@ void loop()
                     }
                     power=rcvpower;
                     Serial.println(steps, DEC);
-                    motor.step(-steps*amp);
+                    motor.step(-steps);
                 }
         }
 }
