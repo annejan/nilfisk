@@ -2,7 +2,7 @@
 
 if [[ -z $1 || -z $2 ]] 
 then
-	echo Usage $0 SOCKET /dev/cu.usbmodemXXX
+	echo Usage $0 PORT /dev/cu.usbmodemXXX
 	exit
 fi
 
